@@ -1,0 +1,8 @@
+---
+- name: Pull and Run docker image
+  hosts: all
+  tasks:
+    - name: Pull vivek14599/devops-calc
+      docker_image:
+        name: vivek14599/devops-calc
+        source: pull
