@@ -17,8 +17,8 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         double number1, number2;
         do {
-            System.out.println("Calculator-DevOps, Choose to perform operation");
-            System.out.print("Press 1 to find factorial\nPress 2 to find Square root\nPress 3 to find power\nPress 4 to find natural logarithm\n" +
+            System.out.println("Calculator Made with DevOps, Choose  Your operation to perform operation");
+            System.out.print("Press 1 to for factorial\nPress 2 to for Square root\nPress 3 to for power\nPress 4 to for natural logarithm\n" +
                     "Press 5 to exit\nEnter your choice: ");
             int choice;
             try {
@@ -47,11 +47,11 @@ public class Calculator {
                     break;
                 case 3:
                     // find power
-                    System.out.print("Enter the first number : ");
+                    System.out.print("Enter  first number : ");
                     number1 = scanner.nextDouble();
-                    System.out.print("Enter the second number : ");
+                    System.out.print("Enter  second number : ");
                     number2 = scanner.nextDouble();
-                    System.out.println(number1+ " raised to power "+number2+" is : " + calculator.power(number1, number2));
+                    System.out.println(number1+ " raised to power of "+number2+" is : " + calculator.power(number1, number2));
                     System.out.println("\n");
                     break;
                 case 4:
@@ -63,7 +63,7 @@ public class Calculator {
 
                     break;
                 default:
-                    System.out.println("Exiting....");
+                    System.out.println("Thanks for using Calculator Made with DevOps By MT2020074 \n \n Concluding all operations...");
                     return;
             }
         } while (true);
